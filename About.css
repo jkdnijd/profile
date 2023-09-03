@@ -1,0 +1,99 @@
+/* web.css */
+
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Style the profile image */
+.logo {
+    width: 160px;
+    border-radius: 50%;
+    border: solid 5px white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Style the main container */
+.main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Style the about section */
+.about-section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Style the info section */
+.info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+.info h1 {
+    font-size: 36px;
+    margin-top: 10px;
+    line-height: 1.3;
+}
+
+.info a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.info a:hover {
+    background-color: #555;
+}
